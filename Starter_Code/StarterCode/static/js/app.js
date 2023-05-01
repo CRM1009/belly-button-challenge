@@ -116,7 +116,7 @@ function buildBarChart(sample) {
 
         // Setup the layout
         let layout = {
-            title: "Top 10 OTUs Present"
+            title: "<b>Top 10 OTUs Present</b>"
         };
 
         // Plot the bar chart
@@ -162,7 +162,7 @@ function buildBubbleChart(sample) {
 
         // Set up the layout
         let layout = {
-            title: "Bacteria Per Sample",
+            title: "<b>Bacteria Per Sample</b>",
             hovermode: "closest",
             xaxis: {title: "OTU ID"},
         };
